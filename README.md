@@ -2,7 +2,7 @@
 
 Este é um projeto simples de formulário de login e cadastro construído com HTML, CSS e JavaScript. O projeto oferece uma interface elegante para que os usuários possam se cadastrar ou fazer login utilizando suas credenciais.
 
-Link de acesso: [Desktop Login Form](https://github.com/emilaynerodrigues/Desktop-Login-Form/)
+Link de acesso: [Desktop Login Form](https://emilaynerodrigues.github.io/Desktop-Login-Form/)
 
 ## Funcionalidades Principais
 
