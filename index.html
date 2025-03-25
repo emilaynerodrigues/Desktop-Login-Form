@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- cadastro content starts-->
+      <div class="content">
+        <!-- message wrapper -->
+        <div class="message-wrapper">
+          <h1>Crie sua conta</h1>
+          <!-- <p class="text text-gray">
+            Faça seu cadastro para utilizar os serviços
+          </p> -->
+        </div>
+
+        <!-- prompt-wrapper -->
+        <div class="prompt-wrapper">
+          <p class="text text-gray">Já possui uma conta?</p>
+          <button class="prompt text" onclick="moveRight()">Faça login</button>
+        </div>
+
+        <!-- form starts -->
+        <form action="">
+          <!-- nome -->
+          <div class="input-wrapper">
+            <label for="nome" class="text">Nome completo</label>
+            <input type="text" name="nome" required />
+          </div>
+
+          <!-- email -->
+          <div class="input-wrapper">
+            <label for="email" class="text">E-mail</label>
+            <input type="text" name="email" required />
+          </div>
+
+          <!-- senha -->
+          <div class="input-wrapper">
+            <label for="senha" class="text">Senha</label>
+            <input type="text" name="senha" required />
+          </div>
+
+          <!-- nivel -->
+          <!-- <div class="input-wrapper">
+            <label for="nivel" class="text">Tipo de usuário</label>
+            <select name="nivel" id="nivel" onchange="mostrarMatricula(this)">
+              <option value="">Selecione uma opção</option>
+              <option value="Administrador">Administrador</option>
+              <option value="Cliente">Cliente</option>
+              <option value="Outros">Outros</option>
+            </select>
+          </div> -->
+
+          <!-- matricula -->
+          <!-- <div
+            class="input-wrapper"
+            id="matriculaContainer"
+            style="display: none"
+          >
+            <label for="matricula" class="text">Matrícula</label>
+            <input type="text" name="matricula" />
+          </div> -->
+
+          <br />
+          <input type="submit" class="text submit" value="Cadastrar" />
+        </form>
+        <!-- form ends -->
+
+        <!-- alternative-options -->
+        <div class="alternative-options">
+          <div class="label">
+            <div class="line"></div>
+            <p class="text text-gray">Ou entre com</p>
+            <div class="line"></div>
+          </div>
+
+          <div class="social-wrapper">
+            <div class="social">
+              <img src="/assets/google.png" alt="" />
+            </div>
+            <div class="social">
+              <img src="/assets/facebook.png" alt="" />
+            </div>
+            <div class="social">
+              <img src="/assets/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cadastro content ends-->
+
+      <!-- login content starts-->
+      <div class="content">
+        <!-- message wrapper -->
+        <div class="message-wrapper">
+          <h1>Bem-vindo</h1>
+          <!-- <p class="text text-gray">Faça login para continuar</p> -->
+        </div>
+
+        <!-- prompt-wrapper -->
+        <div class="prompt-wrapper">
+          <p class="text text-gray">Não tem uma conta?</p>
+          <button class="prompt text" onclick="moveRight()">Cadastre-se</button>
+        </div>
+
+        <!-- form starts -->
+        <form action="">
+          <!-- e-mail -->
+          <div class="input-wrapper">
+            <label for="email" class="text">E-mail</label>
+            <input type="text" name="email" required />
+          </div>
+
+          <!-- senha -->
+          <div class="input-wrapper">
+            <label for="" class="text">Senha</label>
+            <input type="text" name="senha" required />
+          </div>
+
+          <input type="submit" class="text submit" value="Entrar" />
+        </form>
+        <!-- form ends -->
+
+        <!-- alternative-options -->
+        <div class="alternative-options">
+          <div class="label">
+            <div class="line"></div>
+            <p class="text text-gray">Ou entre com</p>
+            <div class="line"></div>
+          </div>
+
+          <div class="social-wrapper">
+            <div class="social">
+              <img src="/assets/google.png" alt="" />
+            </div>
+            <div class="social">
+              <img src="/assets/facebook.png" alt="" />
+            </div>
+            <div class="social">
+              <img src="/assets/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- login content ends-->
+
+      <!-- overlay-content starts-->
+      <div class="overlay-content" id="overlay-content"></div>
+      <!-- overlay-content ends-->
+    </main>
+
+    <script src="/javascript/main.js"></script>
+  </body>
+</html>
